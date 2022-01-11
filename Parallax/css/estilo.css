@@ -1,0 +1,107 @@
+/* EStilo CSS Projeto Parallax Sistem. */
+
+body, html {
+	margin: 0;
+	font: 16px "Lato", sans-serif;
+	color: #777;
+/*	border: 1px solid red; */
+	height: 100%;
+/*	margin: 0px;
+	padding: 0px;
+	border: 0px; */
+}
+
+p {
+	color: #777;
+	background-color: white;
+	text-align: justify;
+	padding: 50px 80px;	
+}
+.conteudo {
+	color: #777;
+	background-color: white;
+	text-align: justify;
+	padding: 50px 80px;
+	height: 100%;
+}
+
+.conteudo, .conteudo1 h3 {
+	text-transform: uppercase;
+	color: red;
+	text-align: center;
+}
+
+
+/* Efeito Parallax */
+
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6 {
+/*	border: 1px solid red; */
+	opacity: 0.7;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+	text-transform: uppercase;
+}
+
+.conteudo, .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6 p h2{
+	color: #777;
+	background-color: white;
+	text-align: justify;
+	padding: 50px 80px;
+
+}
+
+.caixa1 {
+	background-image: url(../imagens/imagem1.jpg);
+	height: 100%;
+}
+
+.caixa2 {
+	background-image: url(../imagens/imagem2.jpg);
+	height: 100%;
+
+}
+
+.caixa3 {
+	background-image: url(../imagens/imagem3.jpg);
+	height: 100%;
+}
+
+.caixa4 {
+	background-image: url(../imagens/imagem4.jpg);
+	height: 100%;
+}
+
+.caixa5 {
+	background-image: url(../imagens/imagem5.jpg);
+	height: 100%;
+}
+
+.caixa6 {
+	background-image: url(../imagens/imagem6.jpg);
+	height: 100%;
+}
+
+/* Titulos de Conteúdo */
+
+.titulo1 {
+	position: absolute;
+	left: 0;
+	top: 45%;
+	width: 100%;
+	background: red;
+	text-align: center;
+}
+
+.titulo1 span.titulo {
+	color: #fff;
+	background-color: #111;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 5px;
+}
+
+
